@@ -1,9 +1,11 @@
 {
-  "name": "calculatorcmd",
+  "name": "CalculatorCMD",
   "version": "0.0.1",
   "description": "This is a calculator app with a command line interface.",
-  "main": "index.js",
+  "main": "./src/main.js",
+  "type": "module",
   "scripts": {
+    "start": "node ./src/main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
